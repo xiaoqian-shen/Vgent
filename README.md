@@ -26,7 +26,7 @@ Suggest to run on 8 A100 GPUs
 
 Step1: Construct Offline Graph
 
-```
+```python 
 torchrun \
     --nnodes=$SLURM_NNODES \
     --node_rank=$NODE_RANK \
@@ -41,7 +41,7 @@ torchrun \
 
 Step2: Retrieval-Reasoning-Augmented Generation
 
-```
+```python
 torchrun \
     --nnodes=$SLURM_NNODES \
     --node_rank=$NODE_RANK \
