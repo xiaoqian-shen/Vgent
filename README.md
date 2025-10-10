@@ -1,6 +1,6 @@
 # Vgent
 
-> **Vgent: Graph-based Retrieval-Reasoning-Augmented Generation For Long Video Understanding [NeurIPS 2025]**
+> **Vgent: Graph-based Retrieval-Reasoning-Augmented Generation For Long Video Understanding [NeurIPS 2025 Spotlight]**
 >
 > *Xiaoqian Shen, Wenxuan Zhang, Jun Chen, Mohamed Elhoseiny*
 > 
