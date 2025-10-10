@@ -7,7 +7,7 @@
 
 ## 🔍 Overview
 
-![alt text](assets/teaser.png)
+![alt text](assets/teaser.jpg)
 
 ## :rocket: Get Started
 
