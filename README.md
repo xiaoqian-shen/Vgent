@@ -1,6 +1,8 @@
 # Vgent
 
 > Vgent: Graph-based Retrieval-Reasoning-Augmented Generation For Long Video Understanding
+>
+> *Xiaoqian Shen, Wenxuan Zhang, Jun Chen, Mohamed Elhoseiny*
 > 
 > [![Paper](https://img.shields.io/badge/Paper-red?logo=arxiv&logoWidth=15)]()
 > [![Web](https://img.shields.io/badge/Project-Page-blue?style=flat-square)](https://xiaoqian-shen.github.io/Vgent)
@@ -63,7 +65,7 @@ torchrun \
 
 If you find our paper and code useful in your research, please consider giving a star ⭐ and citation 📝:
 
-```
+```BibTeX
 @inproceedings{shen2025vgent,
   title={Vgent: Graph-based Retrieval-Reasoning-Augmented Generation For Long Video Understanding},
   author={Shen, Xiaoqian and Zhang, Wenxuan and Chen, Jun and Elhoseiny, Mohamed},
