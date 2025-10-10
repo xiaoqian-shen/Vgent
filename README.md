@@ -7,6 +7,8 @@
 
 ## 🔍 Overview
 
+![alt text](assets/teaser.png)
+
 ## :rocket: Get Started
 
 ### ⚙️ Environment setup
