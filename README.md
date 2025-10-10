@@ -22,7 +22,7 @@ conda create -n vgent python==3.11
 conda activate vgent
 pip install -r requirements.txt
 ```
-### 📑 Evaluation
+### 📊 Evaluation
 
 Suggest to run on 8 A100 GPUs
 
