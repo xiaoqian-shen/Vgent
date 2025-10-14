@@ -155,18 +155,220 @@ refined clips and reasoning results to generate the final response.
 
 
 <!-- Paper Qualitative -->
-<section class="section hero">
+<section class="section">
   <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-five-sixths">
-        <h2 class="title is-3">Video Understanding Results</h2>
-        <div class="myrow">
-          <img src="static/images/result1.png" width="70%"/>
+
+    <div class="columns is-centered">
+      <div class="column is-five-sixths has-text-centered content">
+
+        <h2 class="title is-3" id="leaderboard">Video Understanding Results</h2>
+        <div class="content">
+          </div>
+
+          <table class="js-sort-table" id="results" style="margin-left: auto; margin-right: auto;" data-js-sort-table="true">
+            <thead>
+              <tr>
+                <th rowspan="1" class="no-sort" style="vertical-align: middle; width: 180px;" data-js-sort-colnum="NaN"><strong>Model</strong></th>
+                <th rowspan="1" class="no-sort" style="vertical-align: middle; width: 50px;" data-js-sort-colnum="NaN"><strong>Params</strong></th>
+                <th colspan="1" style="vertical-align: middle; width: 150px;" data-js-sort-colnum="6"><strong>VideoMME<br>(w/o sub.)</strong></th>
+                <th colspan="1" style="vertical-align: middle; width: 150px;" data-js-sort-colnum="9"><strong>VideoMME<br>(w/ sub.)</strong></th>
+                <th colspan="1" style="vertical-align: middle; width: 150px;" data-js-sort-colnum="12"><strong>MLVU</strong></th>
+                <th colspan="1" style="vertical-align: middle; width: 150px;" data-js-sort-colnum="15"><strong>LongVideoBench</strong></th>
+              </tr>
+            </thead>
+            <tbody>
+
+<!--              <tr>-->
+<!--                <td style="text-align: left;">-->
+<!--                  <b class="">-->
+<!--                    <a href="https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf" class="ext-link" style="font-size: 16px; margin-left: 5px;">Gemini 1.5 Pro</a>-->
+<!--                  </b>-->
+<!--                </td>-->
+<!--                <td style="vertical-align: middle;">- </td>-->
+<!--                <td style="vertical-align: middle;"><b class="">75.0</b></td>-->
+<!--                <td style="vertical-align: middle;"><b class="">81.3</b></td>-->
+<!--                <td style="vertical-align: middle;"><b class="">-</b></td>-->
+<!--                <td style="vertical-align: middle;"><b class="">64.0</b></td>-->
+<!--              </tr>-->
+
+<!--            <tr>-->
+<!--                <td style="text-align: left;">-->
+<!--                  <b class="">-->
+<!--                    <a href="https://openai.com/index/hello-gpt-4o/" class="ext-link" style="font-size: 16px; margin-left: 5px;">GPT-4o</a>-->
+<!--                  </b>-->
+<!--                </td>-->
+<!--                <td style="vertical-align: middle;">- </td>-->
+<!--                <td style="vertical-align: middle;"><b class="">71.9</b></td>-->
+<!--                <td style="vertical-align: middle;"><b class="">77.2</b></td>-->
+<!--                <td style="vertical-align: middle;"><b class="">64.6</b></td>-->
+<!--                <td style="vertical-align: middle;"><b class="">66.7</b></td>-->
+<!--              </tr>-->
+
+            <tr>
+                <td style="text-align: left;">
+                  <b class="">
+                    <a href="https://huggingface.co/OpenGVLab/InternVL2_5-2B" class="ext-link" style="font-size: 16px; margin-left: 5px;">InternVL2.5</a>
+                  </b>
+                </td>
+                <td style="vertical-align: middle;">2B</td>
+                <td style="vertical-align: middle;"><b class="">49.5</b></td>
+                <td style="vertical-align: middle;"><b class="">55.2</b></td>
+                <td style="vertical-align: middle;"><b class="">56.7</b></td>
+                <td style="vertical-align: middle;"><b class="">52.0</b></td>
+              </tr>
+
+            <tr>
+                <td style="text-align: left;">
+                  <b class="">
+                    <a href="https://huggingface.co/OpenGVLab/InternVL2_5-2B" class="ext-link" style="font-size: 16px; margin-left: 5px;">InternVL2.5</a> + Vgent
+                  </b>
+                </td>
+                <td style="vertical-align: middle;">2B</td>
+                <td style="vertical-align: middle;"><b class="">50.9</b><strong style="color: #22a56e;"> (+1.4)</strong></td>
+                <td style="vertical-align: middle;"><b class="">56.8</b><strong style="color: #22a56e;"> (+1.6)</strong></td>
+                <td style="vertical-align: middle;"><b class="">61.1</b><strong style="color: #22a56e;"> (+4.4)</strong></td>
+                <td style="vertical-align: middle;"><b class="">54.8</b><strong style="color: #22a56e;"> (+2.8)</strong></td>
+              </tr>
+
+            <tr>
+                <td style="text-align: left;">
+                  <b class="">
+                    <a href="https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct" class="ext-link" style="font-size: 16px; margin-left: 5px;">Qwen2.5-VL</a>
+                  </b>
+                </td>
+                <td style="vertical-align: middle;">3B</td>
+                <td style="vertical-align: middle;"><b class="">61.4</b></td>
+                <td style="vertical-align: middle;"><b class="">67.6</b></td>
+                <td style="vertical-align: middle;"><b class="">66.2</b></td>
+                <td style="vertical-align: middle;"><b class="">54.2</b></td>
+              </tr>
+
+            <tr>
+                <td style="text-align: left;">
+                  <b class="">
+                    <a href="https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct" class="ext-link" style="font-size: 16px; margin-left: 5px;">Qwen2.5-VL</a> + Vgent
+                  </b>
+                </td>
+                <td style="vertical-align: middle;">3B</td>
+                <td style="vertical-align: middle;"><b class="">63.0</b><strong style="color: #22a56e;"> (+1.6)</strong></td>
+                <td style="vertical-align: middle;"><b class="">69.6</b><strong style="color: #22a56e;"> (+2.0)</strong></td>
+                <td style="vertical-align: middle;"><b class="">70.4</b><strong style="color: #22a56e;"> (+4.2)</strong></td>
+                <td style="vertical-align: middle;"><b class="">57.8</b><strong style="color: #22a56e;"> (+3.6)</strong></td>
+              </tr>
+
+            <tr>
+                <td style="text-align: left;">
+                  <b class="">
+                    <a href="https://huggingface.co/Vision-CAIR/LongVU_Qwen2_7B" class="ext-link" style="font-size: 16px; margin-left: 5px;">LongVU</a>
+                  </b>
+                </td>
+                <td style="vertical-align: middle;">7B</td>
+                <td style="vertical-align: middle;"><b class="">55.2</b></td>
+                <td style="vertical-align: middle;"><b class="">60.9</b></td>
+                <td style="vertical-align: middle;"><b class="">65.4</b></td>
+                <td style="vertical-align: middle;"><b class="">50.2</b></td>
+              </tr>
+
+            <tr>
+                <td style="text-align: left;">
+                  <b class="">
+                    <a href="https://huggingface.co/Vision-CAIR/LongVU_Qwen2_7B" class="ext-link" style="font-size: 16px; margin-left: 5px;">LongVU</a> + Vgent
+                  </b>
+                </td>
+                <td style="vertical-align: middle;">7B</td>
+                <td style="vertical-align: middle;"><b class="">57.3</b><strong style="color: #22a56e;"> (+2.1)</strong></td>
+                <td style="vertical-align: middle;"><b class="">63.7</b><strong style="color: #22a56e;"> (+2.8)</strong></td>
+                <td style="vertical-align: middle;"><b class="">70.8</b><strong style="color: #22a56e;"> (+5.4)</strong></td>
+                <td style="vertical-align: middle;"><b class="">52.7</b><strong style="color: #22a56e;"> (+2.5)</strong></td>
+              </tr>
+
+            <tr>
+                <td style="text-align: left;">
+                  <b class="">
+                    <a href="https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct" class="ext-link" style="font-size: 16px; margin-left: 5px;">Qwen2-VL</a>
+                  </b>
+                </td>
+                <td style="vertical-align: middle;">7B</td>
+                <td style="vertical-align: middle;"><b class="">62.7</b></td>
+                <td style="vertical-align: middle;"><b class="">68.1</b></td>
+                <td style="vertical-align: middle;"><b class="">65.7</b></td>
+                <td style="vertical-align: middle;"><b class="">55.6</b></td>
+              </tr>
+
+            <tr>
+                <td style="text-align: left;">
+                  <b class="">
+                    <a href="https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct" class="ext-link" style="font-size: 16px; margin-left: 5px;">Qwen2-VL</a> + Vgent
+                  </b>
+                </td>
+                <td style="vertical-align: middle;">7B</td>
+                <td style="vertical-align: middle;"><b class="">63.5</b><strong style="color: #22a56e;"> (+0.8)</strong></td>
+                <td style="vertical-align: middle;"><b class="">70.1</b><strong style="color: #22a56e;"> (+2.0)</strong></td>
+                <td style="vertical-align: middle;"><b class="">70.3</b><strong style="color: #22a56e;"> (+4.6)</strong></td>
+                <td style="vertical-align: middle;"><b class="">58.4</b><strong style="color: #22a56e;"> (+2.8)</strong></td>
+              </tr>
+
+            <tr>
+                <td style="text-align: left;">
+                  <b class="">
+                    <a href="https://huggingface.co/lmms-lab/LLaVA-Video-7B-Qwen2" class="ext-link" style="font-size: 16px; margin-left: 5px;">LLaVA-Video</a>
+                  </b>
+                </td>
+                <td style="vertical-align: middle;">7B</td>
+                <td style="vertical-align: middle;"><b class="">64.3</b></td>
+                <td style="vertical-align: middle;"><b class="">69.2</b></td>
+                <td style="vertical-align: middle;"><b class="">69.5</b></td>
+                <td style="vertical-align: middle;"><b class="">59.5</b></td>
+              </tr>
+
+            <tr>
+                <td style="text-align: left;">
+                  <b class="">
+                    <a href="https://huggingface.co/lmms-lab/LLaVA-Video-7B-Qwen2" class="ext-link" style="font-size: 16px; margin-left: 5px;">LLaVA-Video</a> + Vgent
+                  </b>
+                </td>
+                <td style="vertical-align: middle;">7B</td>
+                <td style="vertical-align: middle;"><b class="">66.7</b><strong style="color: #22a56e;"> (+2.4)</strong></td>
+                <td style="vertical-align: middle;"><b class="">71.1</b><strong style="color: #22a56e;"> (+1.9)</strong></td>
+                <td style="vertical-align: middle;"><b class="">72.5</b><strong style="color: #22a56e;"> (+3.0)</strong></td>
+                <td style="vertical-align: middle;"><b class="">62.4</b><strong style="color: #22a56e;"> (+2.9)</strong></td>
+              </tr>
+
+            <tr>
+                <td style="text-align: left;">
+                  <b class="">
+                    <a href="https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct" class="ext-link" style="font-size: 16px; margin-left: 5px;">Qwen2.5-VL</a>
+                  </b>
+                </td>
+                <td style="vertical-align: middle;">7B</td>
+                <td style="vertical-align: middle;"><b class="">65.1</b></td>
+                <td style="vertical-align: middle;"><b class="">71.1</b></td>
+                <td style="vertical-align: middle;"><b class="">68.8</b></td>
+                <td style="vertical-align: middle;"><b class="">56.0</b></td>
+              </tr>
+
+            <tr>
+                <td style="text-align: left;">
+                  <b class="">
+                    <a href="https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct" class="ext-link" style="font-size: 16px; margin-left: 5px;">Qwen2.5-VL</a> + Vgent
+                  </b>
+                </td>
+                <td style="vertical-align: middle;">7B</td>
+                <td style="vertical-align: middle;"><b class="">68.9</b><strong style="color: #22a56e;"> (+3.8)</strong></td>
+                <td style="vertical-align: middle;"><b class="">74.3</b><strong style="color: #22a56e;"> (+3.2)</strong></td>
+                <td style="vertical-align: middle;"><b class="">72.1</b><strong style="color: #22a56e;"> (+3.3)</strong></td>
+                <td style="vertical-align: middle;"><b class="">59.7</b><strong style="color: #22a56e;"> (+3.7)</strong></td>
+              </tr>
+
+          </tbody>
+        </table>
+
         </div>
 
       </div>
     </div>
-  </div>
+
+
 </section>
 
 <!-- Paper Qualitative -->
