@@ -69,7 +69,7 @@ If you find our paper and code useful in your research, please consider giving a
 @inproceedings{shen2025vgent,
   title={Vgent: Graph-based Retrieval-Reasoning-Augmented Generation For Long Video Understanding},
   author={Shen, Xiaoqian and Zhang, Wenxuan and Chen, Jun and Elhoseiny, Mohamed},
-  ournal={Advances in Neural Information Processing Systems},
+  journal={Advances in Neural Information Processing Systems},
   year={2025}
 }
 ```
