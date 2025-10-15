@@ -17,7 +17,7 @@
     <a href="https://xiaoqian-shen.github.io/" target="_blank">Xiaoqian Shen</a><sup>1</sup>,</span>
     <a href="https://wx-zhang.github.io/" target="_blank">Wenxuan Zhang</a><sup>1</sup>,</span>
     <a href="https://junchen14.github.io/" target="_blank">Jun Chen</a><sup>1,2</sup>,</span>
-    <a href="https://cemse.kaust.edu.sa/profiles/mohamed-elhoseiny" target="_blank">Mohamed Elhoseiny</a><sup>1</sup>,</span>
+    <a href="https://cemse.kaust.edu.sa/profiles/mohamed-elhoseiny" target="_blank">Mohamed Elhoseiny</a><sup>1</sup></span>
 </div>
 
 <div align="center">
