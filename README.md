@@ -1,6 +1,12 @@
 # Vgent
 
-> **Vgent: Graph-based Retrieval-Reasoning-Augmented Generation For Long Video Understanding [NeurIPS 2025 Spotlight]**
+<div align="center">
+    <h4>
+        <div>
+          Vgent: Graph-based Retrieval-Reasoning-Augmented Generation For Long Video Understanding <br> [NeurIPS 2025 Spotlight]
+        </div>
+    </h4>
+</div>
 
 <div align="center">
     <a href="" target="_blank"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoWidth=15" height="20" /></a>
