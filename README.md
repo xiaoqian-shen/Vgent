@@ -1,11 +1,23 @@
 # Vgent
 
 > **Vgent: Graph-based Retrieval-Reasoning-Augmented Generation For Long Video Understanding [NeurIPS 2025 Spotlight]**
->
-> *Xiaoqian Shen, Wenxuan Zhang, Jun Chen, Mohamed Elhoseiny*
-> 
-> [![Paper](https://img.shields.io/badge/Paper-red?logo=arxiv&logoWidth=15)]()
-> [![Web](https://img.shields.io/badge/Project-Page-blue?style=flat-square)](https://xiaoqian-shen.github.io/Vgent)
+
+<div align="center">
+    <a href="" target="_blank"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoWidth=15" height="20" /></a>
+    <a href="https://xiaoqian-shen.github.io/Vgent" target="_blank">
+    <img alt="Website" src="https://img.shields.io/badge/🌎_Webpage-Vgent-blue?style=flat-square" height="20" /></a>
+</div>
+<div align="center">
+    <a href="https://xiaoqian-shen.github.io/" target="_blank">Xiaoqian Shen</a><sup>1</sup>,</span>
+    <a href="https://wx-zhang.github.io/" target="_blank">Wenxuan Zhang</a><sup>1</sup>,</span>
+    <a href="https://junchen14.github.io/" target="_blank">Jun Chen</a><sup>1,2</sup>,</span>
+    <a href="https://cemse.kaust.edu.sa/profiles/mohamed-elhoseiny" target="_blank">Mohamed Elhoseiny</a><sup>1</sup>,</span>
+</div>
+
+<div align="center">
+    <sup>1</sup>KAUST&emsp;
+    <sup>2</sup>Meta AI&emsp;
+</div>
 
 ## 🔍 Overview
 
