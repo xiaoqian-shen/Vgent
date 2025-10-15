@@ -1,12 +1,13 @@
 # Vgent
 
-> **Vgent: Graph-based Retrieval-Reasoning-Augmented Generation For Long Video Understanding [NeurIPS 2025 Spotlight]**
+> **Vgent: Graph-based Retrieval-Reasoning-Augmented Generation For Long Video Understanding [NeurIPS 2025 Spotlight] <a href="" target="_blank"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoWidth=15" height="20" /></a> <a href="https://xiaoqian-shen.github.io/Vgent" target="_blank">
+    <img alt="Website" src="https://img.shields.io/badge/🌎_Webpage-Vgent-blue?style=flat-square" height="20" /></a>**
 
-<div align="center">
+<!-- <div align="center">
     <a href="" target="_blank"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoWidth=15" height="20" /></a>
     <a href="https://xiaoqian-shen.github.io/Vgent" target="_blank">
     <img alt="Website" src="https://img.shields.io/badge/🌎_Webpage-Vgent-blue?style=flat-square" height="20" /></a>
-</div>
+</div> -->
 <div align="center">
     <a href="https://xiaoqian-shen.github.io/" target="_blank">Xiaoqian Shen</a><sup>1</sup>,</span>
     <a href="https://wx-zhang.github.io/" target="_blank">Wenxuan Zhang</a><sup>1</sup>,</span>
