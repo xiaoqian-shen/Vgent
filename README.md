@@ -44,6 +44,12 @@ pip install -r requirements.txt
 ```
 ### 📊 Evaluation
 
+Download evaluation benchmarks
+
++ [MLVU](https://huggingface.co/datasets/MLVU/MVLU)
++ [VideoMME](https://huggingface.co/datasets/lmms-lab/Video-MME)
++ [LongVideoBench](https://huggingface.co/datasets/longvideobench/LongVideoBench)
+
 Suggest to run on 8 A100 GPUs
 
 Step1: Construct Offline Graph
