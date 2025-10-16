@@ -29,8 +29,6 @@
 
 ![alt text](assets/teaser.jpg)
 
-![alt text](assets/main.jpg)
-
 ## :rocket: Get Started
 
 ### ⚙️ Environment setup
