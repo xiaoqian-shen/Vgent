@@ -102,8 +102,6 @@ Your output:
 }}
 """
 
-SQL_Q0_PROMPT = """Question: {query} Options: {candidates}. Respond with only the letter of the correct option. Respond with X if you are not 100% sure to answer the question."""
-
 SQL_ANSWER_COUNT_PROMPT = """You are a video segment analyzer. You will be given a counting question about a video.
 Your task is to provide a numeric answer only (no text or explanation) in JSON format.
 If the number of the specified object or event cannot be determined from the video, you MUST respond with 0.
