@@ -48,8 +48,8 @@ class EvalDatasetLongVideoBench(torch.utils.data.IterableDataset):
         self.data = list_data_dict
         
     def qa_template(self, data):
-        question = f"Answer the question: {data['question']} according to the content of the video.\n"
-        question += "Select the answer from:\n"
+        question = f"Question: {data['question']}\n"
+        question += "Options:\n"
         for idx, c in enumerate(data["candidates"]):
             question += f"({chr(ord('A') + idx)}) {c}\n"
         return question
@@ -97,8 +97,8 @@ class EvalDatasetVideoMME(torch.utils.data.IterableDataset):
             )
 
             for query in item["questions"]:
-                prompt = f"Answer the question: {query['question']} according to the content of the video.\n"
-                prompt += "Select the answer from:\n"
+                prompt = f"Question: {query['question']}\n"
+                prompt += "Options:\n"
                 for op in query["candidates"]:
                     prompt += f"{op}\n"
                 list_data_dict.append(
@@ -188,8 +188,8 @@ class EvalDatasetMLVU(torch.utils.data.IterableDataset):
         return len(self.data)
 
     def qa_template(self, data):
-        question = f"Answer the question: {data['question']} according to the content of the video.\n"
-        question += "Select the answer from:\n"
+        question = f"Question: {data['question']}\n"
+        question += "Options:\n"
         answer = data["answer"]
         answer_idx = -1
         for idx, c in enumerate(data["candidates"]):
