@@ -3,7 +3,7 @@
 <div align="center">
     <h4>
         <div>
-          Vgent: Graph-based Retrieval-Reasoning-Augmented Generation For Long Video Understanding <br> [NeurIPS 2025 Spotlight]
+          Vgent: Graph-based Retrieval-Reasoning-Augmented Generation For Long Video Understanding
         </div>
     </h4>
 </div>
