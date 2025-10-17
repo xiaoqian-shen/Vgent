@@ -9,7 +9,7 @@
 </div>
 
 <div align="center">
-    <a href="" target="_blank"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoWidth=15" height="20" /></a>
+    <a href="https://arxiv.org/pdf/2510.14032" target="_blank"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoWidth=15" height="20" /></a>
     <a href="https://xiaoqian-shen.github.io/Vgent" target="_blank">
     <img alt="Website" src="https://img.shields.io/badge/🌎_Webpage-Vgent-blue?style=flat-square" height="20" /></a>
 </div>
