@@ -108,18 +108,15 @@
             Understanding and reasoning over long videos pose significant challenges for large
 video language models (LVLMs) due to the difficulty in processing intensive video
 tokens beyond context window and retaining long-term sequential information.
-Retrieval-Augmented Generation (RAG) has demonstrated effectiveness in process-
-ing long context for Large Language Models (LLMs); however, applying RAG to
+Retrieval-Augmented Generation (RAG) has demonstrated effectiveness in processing long context for Large Language Models (LLMs); however, applying RAG to
 long video faces challenges such as disrupted temporal dependencies and inclusion
 of irrelevant information that can hinder accurate reasoning. To address these limi-
 tations, we propose Vgent, a novel graph-based retrieval-reasoning-augmented
 generation framework to enhance LVLMs for long video understanding. Our
 approach introduces two key innovations: (i) It represents videos by structured
-graphs with semantic relationships across video clips preserved to improve re-
-trieval effectiveness. (ii) It introduces an intermediate reasoning step to mitigate
+graphs with semantic relationships across video clips preserved to improve retrieval effectiveness. (ii) It introduces an intermediate reasoning step to mitigate
 the reasoning limitation of LVLMs, which leverages structured verification to
-reduce retrieval noise and facilitate the explicit aggregation of relevant informa-
-tion across clips, resulting in more accurate and context-aware responses. We
+reduce retrieval noise and facilitate the explicit aggregation of relevant information across clips, resulting in more accurate and context-aware responses. We
 comprehensively evaluate our framework with various open-source LVLMs on
 three long-video understanding benchmarks. Our approach yielded an overall
 performance improvement of 3.0%∼5.4% over base models on MLVU, and
